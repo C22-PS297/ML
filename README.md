@@ -1,2 +1,2 @@
 # ML
-This repo is for Machine Learning
+This repo is for Price Estimation Machine Learning Model
