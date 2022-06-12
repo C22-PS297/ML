@@ -14,7 +14,7 @@ async def index():
 async def predict(amount: float):
     prediction = model.predict([amount])
     output = prediction[0]
-    return{"price": output}
+    return{"price": int(output)}
 
 if __name__ == '__main__':
     uvicorn.run("app", port=8000, reload=True)
