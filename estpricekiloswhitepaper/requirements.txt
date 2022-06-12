@@ -1,0 +1,9 @@
+tensorflow
+tensorflow-cpu
+fastapi
+gunicorn
+uvicorn
+numpy
+python-multipart
+typing-extensions
+opencv-python 
