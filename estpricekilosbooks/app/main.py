@@ -11,7 +11,7 @@ model = tf.keras.models.load_model("app/model/estpricekilosbooks.h5")
 async def index():
     return RedirectResponse(url="/docs")
 
-@app.post('/ predict')
+@app.post('/pricebook')
 async def predict(amount: float):
     prediction = model.predict([amount])
     output = prediction[0]
